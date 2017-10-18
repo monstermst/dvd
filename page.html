@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Les DVDs de la boutique de Vidéo-Rétro-future!</title>
+			<meta charset="utf-8">
+			<link rel="page.css">
+			<link href="page.css" type="text/css" rel="stylesheet">
+			<script src="page.js" type="text/javascript"></script>
+			<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+			<script type="text/javascript" src="js/angular.js"></script>
+			<script type="text/javascript" src="js/vue.js"></script>
+			<script type="text/javascript" src="js/riot.js"></script>
+		</head>
+		<body>
+			<section id="main">
+				<header class="h1-title">
+					<h1>Les DVDs de la boutique de Vidéo-Rétro-future!</h1>
+				</header>
+				<article id="DVD info" class="info">
+					<ul>
+						<li id="title">TITRE:<input disabled> </li>
+						<li id="actor">ACTEUR:<input disabled></li>
+						<li id="price">Prix:<input disabled></li>
+					</ul>
+				</article>
+				<article>
+					<ul id="liste" class="listeDVD">
+					</ul>
+					<h2 id="promo">PROMO SPECIALE !!!</h2>
+				</article>
+				<footer>
+					<span class="fullHD">This page is best read under firefox Full HD 1920xp or more like 4Ko.</span>
+				</footer>
+			</section>
+<script rel="javascript" type="text/javascript">
+    fill_list([
+    {title:"AGENT LOCK",actor:"MICHELLE HESTON",price:22.99,special:0},
+    {title:"ADAPTATION CLUE",actor:"MATTHEW LEIGH",price:20.99,special:0},
+    {title:"AFRICAN ROXANNE",actor:"ELVIS DEAN",price:13.99,special:1},
+    {title:"ACE SPIKING",actor:"JEFF HARRIS",price:24.99,special:0},
+    {title:"AFFAIR LOSER",actor:"KENNETH DUKAKIS",price:14.99,special:1},
+    ])
+</script>
+		</body>
+	</html>

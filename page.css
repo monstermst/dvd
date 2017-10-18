@@ -1,0 +1,16 @@
+html {
+    font-size: 130%;
+}
+
+.fullHD {
+	color: green;
+}
+
+#promo {
+	display: none;
+	color: red;
+}
+.listeDVD { 
+	color:black; 
+	cursor:pointer; 
+}
